@@ -178,7 +178,9 @@ img {
 .section-first {
   padding: 120px 0;
 }
-
+.title-section-first {
+  display: none;
+}
 .list-advantages {
   list-style-type: none;
   display: flex;
