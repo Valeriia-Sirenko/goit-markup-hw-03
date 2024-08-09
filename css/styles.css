@@ -58,6 +58,7 @@ img {
 .list-information {
   list-style-type: none;
   display: flex;
+  gap: 40px;
 }
 .li-information {
 }
@@ -68,6 +69,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .link-information:hover,
@@ -81,6 +83,8 @@ img {
 }
 .list-contacts {
   list-style-type: none;
+  display: flex;
+  gap: 40px;
 }
 .li-contact {
 }
