@@ -25,7 +25,7 @@ img {
 .header-information {
   border-bottom: 1px solid #e7e9fc;
 }
-.div-information {
+.container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -107,6 +107,7 @@ img {
 .hero-image {
   background: #2e2f42;
   text-align: center;
+  padding: 188px 0;
 }
 .title-hero-image {
   font-weight: 700;
@@ -115,6 +116,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 
 .button-servise {
@@ -124,6 +126,12 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
