@@ -24,8 +24,6 @@ img {
 /* хедер */
 .header-information {
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
-  align-items: center;
 }
 .container {
   display: flex;
@@ -33,12 +31,14 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   display: block;
+
+  unicode-bidi: isolate;
+  justify-content: center;
 }
 
 .top-line {
   display: flex;
   align-items: center;
-  flex-direction: row;
 }
 
 .logo {
@@ -80,6 +80,7 @@ img {
 }
 
 .address-contacts {
+  font-style: normal;
   margin-left: auto;
 }
 .list-contacts {
